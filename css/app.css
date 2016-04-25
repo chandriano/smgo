@@ -1,0 +1,19 @@
+.jumbotron {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: cornflowerblue;
+		width: 80%;
+	}
+
+#barraNavegacao {
+
+}
+
+#criarContaForm {
+	width: 30%;
+}
+
+#fazerLogin {
+	width: 30%;
+}
