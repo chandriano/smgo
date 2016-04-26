@@ -1,0 +1,22 @@
+{
+  "name": "smgo",
+  "version": "1.0.0",
+  "description": "Show Must Go On was born during a college job. <a href=\"https://codeclimate.com/github/alairfonseca/smgo\"><img src=\"https://codeclimate.com/github/alairfonseca/smgo/badges/gpa.svg\" /></a>",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alairfonseca/smgo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alairfonseca/smgo/issues"
+  },
+  "homepage": "https://github.com/alairfonseca/smgo#readme"
+}
