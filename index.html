@@ -8,11 +8,13 @@
 	<script src="lib/angular/angular.js"></script>
 	<script src="lib/angular/angular-messages.js"></script>
 	<script src="js/app.js"></script>
-	<script src="js/controller/smgoCtrl.js"></script>
+	<script src="js/controller/smgo.js"></script>
 	<script src="lib/angular/angular-route.js"></script>
 	<script src="js/config/routeConfig.js"></script>
 </head>
 
+<div class="container">
+	<div class="row">
 <nav id="barraNavegacao" class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -21,12 +23,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">WebSiteName</a>
+			<a class="navbar-brand" href="#">Show Must Go On!</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
+				<li class="active"><a href="#">Início</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Perfil</a></li>
@@ -36,10 +37,19 @@
 	</div>
 </nav>
 
-<body class="jumbotron">
-	<div ng-view></div>
-
-	<div ng-include="'view/footer.html'"></div>
-</body>
-
+		<body class="jumbotron">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-5" ng-controller="smgoCtrl">
+				<div class="inicial" ng-view></div>
+			</div>
+			<div class="col-md-6">
+				<div ng-include="'view/informacoes.html'"></div>
+			</div>
+		</body>
+		
+		
+	</div>
+</div>
+<div ng-include="'view/footer.html'"></div>
 </html>
